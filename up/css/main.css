@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+	height:760px;
+}
+.background
+{
+	width: 100%;
+	height: 3050px;
+	position: relative;
+}
+.noidung
+{
+	width: 100%;
+	height: 770px;
+	position: relative;
+}
+.noidung1
+{
+	width: 100%;
+	height: 760px;
+}
+.noidung2
+{
+	width: 100%;
+	height: 760px;
+}
+.noidung3
+{
+	width: 100%;
+	height: 760px;
+}
+.logo
+{
+	width: 90%;
+	height: 100px;
+	float: left;
+}
+.consider
+{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: black;
+z-index: 1000;
+}
+.menu
+{
+	width: 3%;
+	height: 100px;
+	float: right;
+	box-sizing: border-box;
+	margin: 30px 0px 0px;
+}
+.sidenav 
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.container
+{
+	width:  350px;
+	height: 350px;
+	background: url("../images/kdjfklds.png");
+	float:left;
+	margin: 280px 200px 200px 580px;
+	position: absolute;
+	border-radius: 350px;
+}
+@font-face
+{
+	font-family: hugo;
+	src:url("../font/Roboto-BlackItalic.ttf");
+	line_height: 15px;
+}
+@font-face
+{
+	font-family: hugo1;
+	src:url("../font/Font Gilroy VH Full/SVN-Gilroy Thin.otf");
+	line-height: 50%;
+}
+@font-face
+{
+	font-family: hugo2;
+	src:url("../font/Font Gilroy VH Full/SVN-Gilroy Medium.otf");
+	line-height: 0.2px;
+}
+@font-face
+{
+	font-family: hugo3;
+	src:url("../font/Font Gilroy VH Full/SVN-Gilroy Medium.otf");
+}
+.headline
+{
+	width: 300px;
+	height: 100px;
+	background-color: aqua;
+	margin: 20px 60px ;
+	box-sizing: border-box;
+	position: absolute;
+}
+.icon
+{
+	width: 40px;
+	height:40px;
+	position: absolute;
+    margin: 540px 0px 500px 1480px;
+	position: fixed;
+}
+.icon1
+{
+	width: 40px;
+	height:40px ;
+	position: absolute;
+    margin: 585px 0px 500px 1480px;
+	position: fixed;
+}
+.icon2
+{
+	width: 40px;
+	height:40px ;
+	background-color: antiquewhite;
+	position: absolute;
+    margin: 630px 0px 500px 1480px;
+	position: fixed;
+}
+.icon3
+{
+	width: 40px;
+	height:40px ;
+	background-color: antiquewhite;
+	position: absolute;
+    margin: 675px 0px 500px 1480px;
+	position: fixed;
+}
+.nui
+{
+   color:black;
+	position: absolute;
+	margin:380px 30px;
+	word-spacing: 3px;
+	letter-spacing: 15px;
+}
+.text1
+{
+	position: absolute;
+	margin: 660px 30px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	color:white;
+}
+.text2
+{
+   color:white;
+	position: absolute;
+	margin: 685px 30px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+}
+.text3
+{
+   color:black;
+	position: absolute;
+	margin: 485px 30px;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+}
+.quocgia
+{
+    color:white;
+	position: absolute;
+	margin: 570px 10px 10px 905px ;
+}
+.textbody
+{
+    color:black;
+	position: absolute;
+	margin: 595px 10px 10px 905px ;
+	letter-spacing: 3px;
+}
+.viet
+{
+	width: 570px;
+	height:150px;
+	position: absolute;
+	margin: 630px 0px 0px 905px;
+}
+.viet1
+{
+	width: 100px;
+	height:50px;
+	position: absolute;
+	margin: 700px 0px 0px 30px;
+}
+.muont
+{
+	width: 550px;
+	height: 100px;
+	position: absolute;
+	margin: 200px 480px;
+	padding: 10px;
+}
